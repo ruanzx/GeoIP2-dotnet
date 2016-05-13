@@ -67,7 +67,7 @@ install:
 script:
   # Run tests
   - cd ./GeoIP2.UnitTests
-  - dotnet run -f $Framework
+  - dotnet run -f $Framework -c $Configuration
 
 notifications:
   email:

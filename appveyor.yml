@@ -64,7 +64,7 @@ test_script:
       # Run tests
       cd .\GeoIP2.UnitTests
 
-      dotnet run -f $env:Framework
+      dotnet run -f $env:Framework -c $env:Configuration
 
 notifications:
   - auth_token:
