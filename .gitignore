@@ -97,6 +97,10 @@ csx
 # Windows Store app package directory
 AppPackages/
 
+# Idea
+.idea
+*.iml
+
 # Others
 [Bb]in
 [Oo]bj
